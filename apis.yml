@@ -1,7 +1,14 @@
 aid: vested
 name: Vested
-description: Vested is a company surfaced as a portfolio company of techstars and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vested Finance is an investment platform that enables Indian residents to build globally
+  diversified portfolios by investing in US markets. It provides access to 10,000+ US stocks
+  and 2,000+ ETFs, professionally managed portfolios (Vests), global mutual funds spanning 50+
+  countries, and private-market opportunities, alongside INR-to-USD remittance handling and
+  US tax-reporting tools for Indian investors. Vested also operates a login-gated Partner API
+  developer portal at developer.vestedfinance.com that exposes its brokerage and investing
+  capabilities to partners. The company was originally surfaced as a portfolio company of
+  Techstars and is profiled in the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/vested/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,32 @@ x-backed-by:
 - techstars
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://developer.vestedfinance.com/assets/images/logo-light.svg
 tags:
 - Company
+- Financial Services
+- FinTech
+- Investing
+- Stocks
+- ETFs
+- Wealth Management
+- Brokerage
+- India
+- US Markets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +49,30 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vested-domain-security.yml
 - type: Website
-  url: https://vested.co.in/
+  url: https://vestedfinance.com/
+- type: DeveloperPortal
+  url: https://developer.vestedfinance.com/
+- type: Support
+  url: https://support.vestedfinance.com/portal/en/home
+- type: Blog
+  url: https://vestedfinance.com/blog/
+- type: Pricing
+  url: https://vestedfinance.com/in/pricing/
+- type: SignUp
+  url: https://app.vestedfinance.com/signup
+- type: Login
+  url: https://app.vestedfinance.com/login
+- type: TermsOfService
+  url: https://vestedfinance.com/legal/terms-of-service/
+- type: PrivacyPolicy
+  url: https://vestedfinance.com/legal/privacy-policy/
+- type: About
+  url: https://vestedfinance.com/our-story/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
