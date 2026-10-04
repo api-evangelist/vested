@@ -44,7 +44,7 @@ modified: '2026-07-21'
 image: https://developer.vestedfinance.com/assets/images/logo-light.svg
 tags:
 - Company
-- Financial-Services
+- Financial Services
 - Fintech
 - Investing
 - Stocks
@@ -64,6 +64,7 @@ tags_raw:
 - Brokerage
 - India
 - US Markets
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
